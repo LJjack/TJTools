@@ -11,9 +11,8 @@
 @class CYDropMenu;
 
 typedef void(^CYDropMenuBlock) (NSInteger menuIndex);
+
 @interface CYDropMenu : UIView
-
-
 
 /*
  * @brief 初始化顶部排序菜单

@@ -144,7 +144,6 @@
     return CGRectGetMidX(self.frame) ;
     
 }
-
 -(CGFloat)midY{
     
     //    return self.center.y ;

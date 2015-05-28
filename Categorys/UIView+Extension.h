@@ -25,31 +25,31 @@
 
 // frame
 
-@property (nonatomic,assign) CGFloat minX ;
+@property (nonatomic,assign,readonly) CGFloat minX ;
 
-@property (nonatomic,assign) CGFloat minY ;
+@property (nonatomic,assign,readonly) CGFloat minY ;
 
-@property (nonatomic,assign) CGFloat midX ;
+@property (nonatomic,assign,readonly) CGFloat midX ;
 
-@property (nonatomic,assign) CGFloat midY ;
+@property (nonatomic,assign,readonly) CGFloat midY ;
 
-@property (nonatomic,assign) CGFloat maxX ;
+@property (nonatomic,assign,readonly) CGFloat maxX ;
 
-@property (nonatomic,assign) CGFloat maxY ;
+@property (nonatomic,assign,readonly) CGFloat maxY ;
 
 // bounds
 
-@property (nonatomic,assign) CGFloat localMinX ;
+@property (nonatomic,assign,readonly) CGFloat localMinX ;
 
-@property (nonatomic,assign) CGFloat localMinY ;
+@property (nonatomic,assign,readonly) CGFloat localMinY ;
 
-@property (nonatomic,assign) CGFloat localMidX ;
+@property (nonatomic,assign,readonly) CGFloat localMidX ;
 
-@property (nonatomic,assign) CGFloat localMidY ;
+@property (nonatomic,assign,readonly) CGFloat localMidY ;
 
-@property (nonatomic,assign) CGFloat localMaxX ;
+@property (nonatomic,assign,readonly) CGFloat localMaxX ;
 
-@property (nonatomic,assign) CGFloat localMaxY ;
+@property (nonatomic,assign,readonly) CGFloat localMaxY ;
 
 #pragma mark by tofu jelly
 

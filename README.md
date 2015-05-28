@@ -14,7 +14,7 @@ IBActionSheet *actionSheet = [[IBActionSheet alloc] initWithTitle:@"选择付款
                                                         cancelButtonTitle:@"取消"
                                                    destructiveButtonTitle:nil
                                                         otherButtonTitles:@"支付宝",@"微支付",nil];
-        [actionSheet showInView:[[UIApplication sharedApplication] keyWindow]];
+        [actionSheet show];
 }];
 ```
 

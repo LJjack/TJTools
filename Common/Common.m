@@ -200,8 +200,7 @@
     
     //模态弹出appstore
     [control presentViewController:storeProductViewContorller animated:YES completion:^{
-        JLLTiShiKuang *view = (JLLTiShiKuang *)[[UIApplication sharedApplication].keyWindow viewWithTag:2000];
-        [view hide];
+        
     }
      ];
     //加载一个新的视图展示
@@ -211,8 +210,6 @@
          //block回调
          if(error){
              NSLog(@"error %@ with userInfo %@",error,[error userInfo]);
-             JLLTiShiKuang *view = (JLLTiShiKuang *)[[UIApplication sharedApplication].keyWindow viewWithTag:2000];
-             [view hide];
              
              NSString *str = [NSString stringWithFormat:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%@",@"284910350"];
              [[UIApplication sharedApplication] openURL:[NSURL URLWithString:str]];

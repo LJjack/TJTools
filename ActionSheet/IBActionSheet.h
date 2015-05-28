@@ -65,7 +65,8 @@ typedef void (^IBActionCallback)(IBActionSheet *actionSheet, NSInteger buttonInd
 
 @interface IBActionSheet : UIView
 
-- (void)showInView:(UIView *)theView;
+- (void)show;
+
 - (NSInteger)addButtonWithTitle:(NSString *)title;
 - (void)dismissWithClickedButtonIndex:(NSInteger)buttonIndex animated:(BOOL)animated;
 - (id)initWithTitle:(NSString *)title delegate:(id<IBActionSheetDelegate>)delegate cancelButtonTitle:(NSString *)cancelTitle destructiveButtonTitle:(NSString *)destructiveTitle otherButtonTitles:(NSString *)otherTitles, ... NS_REQUIRES_NIL_TERMINATION;

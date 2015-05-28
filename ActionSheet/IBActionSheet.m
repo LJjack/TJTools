@@ -645,8 +645,8 @@
     }
 }
 
-- (void)showInView:(UIView *)theView {
-    
+- (void)show{
+    UIWindow *theView = [UIApplication sharedApplication].keyWindow;
     [theView addSubview:self];
     [theView insertSubview:self.transparentView belowSubview:self];
     
